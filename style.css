@@ -16,20 +16,10 @@
 }
 
 .container-img{
-  width: 30%;
-  height: 100% !important;
+  max-height: 70% !important;
   margin: auto;
 }
-@media screen and (max-width:786px) {
-  .container-img{
-    width: 60%;
-  }
-}
-@media screen and (max-width:486px) {
-  .container-img{
-    width: 80%;
-  }
-}
+
 .wrapper{
   top: 0;
   height: 100%;
